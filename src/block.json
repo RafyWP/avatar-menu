@@ -1,0 +1,17 @@
+{
+    "apiVersion": 2,
+    "name": "avatar-menu/avatar-menu",
+    "title": "Avatar Menu",
+    "category": "widgets",
+    "icon": "admin-users",
+    "description": "Display the logged-in user's avatar and name.",
+    "keywords": ["avatar", "user", "profile", "menu"],
+    "textdomain": "avatar-menu",
+    "supports": {
+      "html": false
+    },
+    "editorScript": "file:./index.js",
+    "editorStyle": "file:./editor.scss",
+    "style": "file:./style.scss"
+  }
+  
