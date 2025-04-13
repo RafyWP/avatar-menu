@@ -29,9 +29,18 @@ namespace RafyCo\AvatarMenu;
 
 defined('ABSPATH') || exit;
 
+/**
+ * Check if Composer autoload is available before requiring it.
+ */
 if ( file_exists( __DIR__ . '/vendor/autoload.php' ) ) {
     require_once __DIR__ . '/vendor/autoload.php';
 }
 
+/**
+ * Include helpers.php for auxiliary functions.
+ */
+require_once __DIR__ . '/includes/helpers.php';
+
+// Init
 require_once __DIR__ . '/includes/Plugin.php';
 Plugin::init();
