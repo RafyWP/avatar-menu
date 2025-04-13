@@ -1,0 +1,18 @@
+{
+    "name": "avatar-menu",
+    "version": "1.0.0",
+    "description": "WordPress block plugin to display the logged-in user's avatar and name.",
+    "main": "build/block.js",
+    "scripts": {
+      "start": "wp-scripts start",
+      "build": "wp-scripts build",
+      "zip": "npm run build && zip -r avatar-menu.zip ./ -x \"*.git*\" \"node_modules/*\" \"src/*\" \"*.zip\" \"*.DS_Store\" \"build/webpack.config.js\" \"vendor/*\""
+    },
+    "author": "Rafy Co.",
+    "license": "GPL-2.0-or-later",
+    "devDependencies": {
+      "@wordpress/scripts": "^26.0.0",
+      "sass": "^1.70.0"
+    }
+  }
+  
