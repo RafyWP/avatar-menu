@@ -1,0 +1,24 @@
+{
+    "name": "rafyco/avatar-menu",
+    "description": "A WordPress plugin to display the logged-in user's avatar and name.",
+    "type": "wordpress-plugin",
+    "require": {
+      "php": ">=7.2",
+      "composer/installers": "^1.10",
+      "wpackagist-plugin/wordpress-importer": "^0.7.4"
+    },
+    "autoload": {
+      "psr-4": {
+        "RafyCo\\AvatarMenu\\": "includes/"
+      }
+    },
+    "scripts": {
+      "post-install-cmd": [
+        "composer dump-autoload"
+      ]
+    },
+    "config": {
+      "preferred-install": "dist"
+    }
+}
+  
