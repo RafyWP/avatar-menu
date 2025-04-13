@@ -1,0 +1,24 @@
+# Node modules
+node_modules/
+package-lock.json
+
+# Composer
+vendor/
+composer.lock
+
+# WordPress plugin artifacts
+build/
+*.zip
+
+# System/IDE files
+.DS_Store
+.vscode/
+*.log
+
+# Test artifacts
+phpunit.xml
+tests/output/
+tests/tmp/
+
+# Local environments
+.env
