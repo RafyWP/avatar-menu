@@ -1,0 +1,47 @@
+/*
+ * Avatar Menu Block Styles
+ * -------------------------
+ * Table of Contents:
+ * 1. Avatar Menu Block
+ * 2. Avatar Image
+ * 3. Avatar Name
+ * 4. Alignment Classes
+ */
+
+/* 1. Avatar Menu Block */
+.avatar-menu-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+  }
+  
+  /* 2. Avatar Image */
+  .avatar-menu-block img {
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    margin-right: 10px;
+  }
+  
+  /* 3. Avatar Name */
+  .avatar-menu-block p {
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  /* 4. Alignment Classes */
+  .wp-block-avatar-menu.alignleft {
+    justify-content: flex-start;
+  }
+  
+  .wp-block-avatar-menu.alignright {
+    justify-content: flex-end;
+  }
+  
+  .wp-block-avatar-menu.aligncenter {
+    justify-content: center;
+  }
+  
